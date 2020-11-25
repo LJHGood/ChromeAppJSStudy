@@ -22,9 +22,7 @@ function genRandom(){
 
 function init(){
     const randomNumber = genRandom();
-    console.log(randomNumber);
     paintImage(randomNumber);
-
 }
 
 init();
