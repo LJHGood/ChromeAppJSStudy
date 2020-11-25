@@ -31,7 +31,6 @@ function paintGreeting(text){
 
 function loadNmae(){
     const currentUser = localStorage.getItem(USER_LS);
-    console.log(currentUser);
 
     if(currentUser !== null){
         // 유저가 있는 경우
